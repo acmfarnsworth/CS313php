@@ -1,8 +1,5 @@
-<!Doctype HTML>
 <html>
-	<head>
-		<title>Angela Mulberg | CS313
-	</head>
+	
 	<body>
 <h1>Hello World!</h1>
 
