@@ -3,15 +3,23 @@
  <head>
  <meta charset="utf-8">
  <title>Angela Mulberg | CS313</title>
- <?php include $_SERVER['DOCUMENT_ROOT'].'./modules/head.php'; ?>
+<link rel="stylesheet" type="text/css" href="css/cs313.css">
  </head>
  
  	<header>
-	 	<?php include $_SERVER['DOCUMENT_ROOT'].'./modules/header.php'; ?>
+	 	<h1>Silivrenwolf Photography</h1>
  	</header>
    
  	<nav>
-	 	<?php include $_SERVER['DOCUMENT_ROOT'].'./modules/nav.php'; ?>
+		<ul>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="about.php">About</a></li>
+			<li><a href="equines.php">Equines</a></li>
+			<li><a href="pets.php">Pets</a></li>
+			<li><a href="events.php">Events</a></li>
+			<li><a href="contact.php">Contact</a></li>
+			<li><a href="assignments.php">Assignments</a></li>
+		</ul>
  	</nav>
    
    	<main>
@@ -20,7 +28,7 @@
 	</main>
    
 <footer>
-	<?php include $_SERVER['DOCUMENT_ROOT'].'./modules/footer.php'; ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'].'modules/footer.php'; ?>
 </footer>
 
 </body>
